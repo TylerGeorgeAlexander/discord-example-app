@@ -57,6 +57,12 @@ export function getRandomEmoji() {
   return emojiList[Math.floor(Math.random() * emojiList.length)];
 }
 
+// TODO: Method that returns a TOD (Time of Death) timer count down
+export function getTOD(){
+  // create logic to initiate a timer that counts down.
+  return "TODO"
+}
+
 export function capitalize(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
